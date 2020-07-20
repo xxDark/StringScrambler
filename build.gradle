@@ -1,0 +1,13 @@
+allprojects {
+    group 'me.xdark'
+    version '1.0'
+}
+
+subprojects {
+    apply plugin: 'java'
+
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+}

@@ -1,0 +1,4 @@
+rootProject.name = 'stringscrambler'
+include 'runtime'
+include 'transformer'
+
