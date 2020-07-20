@@ -53,7 +53,7 @@ public final class ScrambleTransformer {
                             after.add(new VarInsnNode(Opcodes.ALOAD, j)); // STACK? STRING
                             after.add(new MethodInsnNode(Opcodes.INVOKESTATIC, UNSAFE, FREE, FREE_DESC, false)); // STACK?
                             list.insert(releaseNode, after);
-                            method.maxStack += 4;
+                            method.maxStack += 3;
                             list.remove(node);
                         }
                     }
